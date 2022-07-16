@@ -1,0 +1,23 @@
+.header{
+  display: flex;
+  background-color: rgb(161, 167, 167);
+  top: 0;
+  height: 5em;
+}
+
+.main-div{
+  display: flex;
+}
+.content-left{
+  width: 70%;
+  height: 100em;
+  background-color: aquamarine;
+}
+
+.content-right{
+  width: 30%;
+  height: 100em;
+  background-color: bisque;
+  
+
+}
