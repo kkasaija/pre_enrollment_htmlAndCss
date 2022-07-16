@@ -1,23 +1,53 @@
 .header{
   display: flex;
   background-color: rgb(161, 167, 167);
-  top: 0;
-  height: 5em;
+  height: auto;
 }
-
+h1{
+  margin-left: 20px;
+}
+.search{
+ 
+  display: flex;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.search-input{
+  display: block;
+  height: 35px;
+  width: 500px;
+  
+}
+.search-button{
+  height: 41px;
+  margin-left: 2px; 
+}
 .main-div{
   display: flex;
 }
 .content-left{
-  width: 70%;
+  width: 65%;
   height: 100em;
   background-color: aquamarine;
 }
-
+.video{
+  width:  650px; 
+  height: 415px;
+  clear: both;
+}
 .content-right{
-  width: 30%;
+  width: 35%;
   height: 100em;
   background-color: bisque;
-  
-
+}
+.nav-bar{
+  margin-left: 55px;
+}
+.nav-bar button{
+  border-radius: 10px none;
+}
+.thumbnail-1{
+  padding: 20px 20px;
+  height: 150px;
+  width: 15em;
 }
